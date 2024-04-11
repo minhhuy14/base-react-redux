@@ -44,7 +44,7 @@ class AddUserInfo extends React.Component {
     }
     render() {
         return (
-            <div>
+            <>
                 My name is {this.state.name} and I am {this.state.age}
                 {/* <button onMouseOver={this.handleOnMouseOver}>Hover me</button> */}
                 {/* <button onClick={(e) => { this.handleClick(e) }}>Click me</button> */}
@@ -59,7 +59,7 @@ class AddUserInfo extends React.Component {
                         onChange={(e) => this.handleOnChangeAge(e)} />
                     <button>Submit</button>
                 </form>
-            </div>
+            </>
         )
     }
 }

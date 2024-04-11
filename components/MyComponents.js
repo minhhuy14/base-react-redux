@@ -23,14 +23,14 @@ class MyComponent extends React.Component {
         // const myInfo = ['ab', 'c', 'd']
 
         return (
-            <div>
+            <>
 
                 <AddUserInfo handleAddNewUser={this.handleAddNewUser}></AddUserInfo>
                 <br />
                 <br />
                 <DisplayInfo listUsers={this.state.listUsers}
                 ></DisplayInfo>
-            </div>
+            </>
 
         );
     }

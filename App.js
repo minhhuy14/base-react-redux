@@ -8,9 +8,10 @@ import React from 'react';
 
 class App extends React.Component {
   render() {
-    return (<div>Hello world with Minh Huy
-      <MyComponent></MyComponent>
-    </div>)
+    return (
+      <div className='app-container'>Hello world with Minh Huy
+        <MyComponent></MyComponent>
+      </div>)
   }
 }
 

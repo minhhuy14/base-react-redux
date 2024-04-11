@@ -22,7 +22,7 @@ class DisplayInfo extends React.Component {
                     <span onClick={() => this.handleShowHide()}>{this.state.isShowListUsers === true ? "Hide list Users" : "Show list Users"}</span>
                 </div>
                 {this.state.isShowListUsers &&
-                    <div>
+                    <>
                         {listUsers.map((user) => {
 
                             return (
@@ -35,7 +35,7 @@ class DisplayInfo extends React.Component {
                                 </div>
                             )
                         })}
-                    </div>
+                    </>
                 }
             </div>
         )
